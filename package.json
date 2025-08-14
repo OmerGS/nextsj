@@ -1,0 +1,41 @@
+{
+  "name": "nextsj",
+  "version": "1.0.0",
+  "description": "NextSJ: the legendary JavaScript framework that tries really hard to be Next.js, but succeeds in chaos, laughter, and occasional brilliance.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node examples/simple.js",
+    "test": "echo \"No tests yet, but it's probably fine.\" && exit 0",
+    "lint": "eslint . --ext .js,.ts",
+    "build": "echo \"Building your dreams…\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmerGS/nextsj.git"
+  },
+  "keywords": [
+    "nextsj",
+    "react",
+    "framework",
+    "ssr",
+    "fun",
+    "troll"
+  ],
+  "author": "Omer GS <contact@omergs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OmerGS/nextsj/issues"
+  },
+  "homepage": "https://github.com/OmerGS/nextsj#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "inquirer": "^12.9.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
+}
